@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+a::after {
+    display: block;
+    content: attr(title);
+    font-weight: 800;
+    height: 0;
+    color: transparent;
+    overflow: hidden;
+    visibility: hidden;
+}
