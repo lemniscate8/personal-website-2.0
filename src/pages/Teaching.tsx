@@ -7,11 +7,12 @@ function Teaching() {
         <Banner />
         <div className="flex flex-row p-4">
             <NavBar />
-            <div className='flex-1'>
+            <section className='grow px-8'>
+                <h2>Teaching</h2>
                 <p>
-                    Teaching goes here
+                    Here's where my teaching stuff will go
                 </p>
-            </div>
+            </section>
         </div>
     </div>
 }

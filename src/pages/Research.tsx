@@ -7,11 +7,12 @@ function Research() {
         <Banner />
         <div className="flex flex-row p-4">
             <NavBar />
-            <div className='flex-1'>
+            <section className='grow px-8'>
+                <h2>Research</h2>
                 <p>
-                    Research goes here
+                    Here's some reasearch
                 </p>
-            </div>
+            </section>
         </div>
     </div>
 }

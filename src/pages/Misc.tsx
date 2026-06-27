@@ -7,11 +7,12 @@ function Misc() {
         <Banner />
         <div className="flex flex-row">
             <NavBar />
-            <div className='flex-1'>
+            <section className='grow px-8'>
+                <h2>Misc</h2>
                 <p>
                     Miscellaneous stuff
                 </p>
-            </div>
+            </section>
         </div>
     </div>
 }

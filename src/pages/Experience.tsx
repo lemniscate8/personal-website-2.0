@@ -6,11 +6,12 @@ function Experience() {
         <Banner />
         <div className="flex flex-row p-4">
             <NavBar />
-            <div className='flex-1'>
+            <section className='grow px-8'>
+                <h2>Resume</h2>
                 <p>
-                    Live resume to go here!
+                    Eventually a resume here
                 </p>
-            </div>
+            </section>
         </div>
     </div>
 }
