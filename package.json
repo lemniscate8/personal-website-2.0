@@ -2,7 +2,7 @@
   "name": "personal-website-2.0",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://lemniscate8.github.io/personal-website-2.0",
+  "homepage": "https://lemniscate8.github.io",
   "type": "module",
   "scripts": {
     "dev": "vite",
