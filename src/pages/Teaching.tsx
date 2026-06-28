@@ -5,14 +5,16 @@ import NavBar from '../components/NavBar'
 function Teaching() {
     return <div >
         <Banner />
-        <div className="flex flex-row p-4">
+        <div className="block md:flex md:flex-row">
             <NavBar />
-            <section className='grow px-8'>
-                <h2>Teaching</h2>
-                <p>
-                    Here's where my teaching stuff will go
-                </p>
-            </section>
+            <div className='grow p-4'>
+                <section>
+                    <h2>Teaching</h2>
+                    <p>
+                        Coming soon: some highlights from of the teaching materials I've created and a list of courses I've taught
+                    </p>
+                </section>
+            </div>
         </div>
     </div>
 }
