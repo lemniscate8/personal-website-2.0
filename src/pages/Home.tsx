@@ -6,7 +6,7 @@ import Link from '../components/Link'
 function Home() {
     return <>
         <Banner />
-        <div className="block md:flex md:flex-row">
+        <div className="block md:flex md:flex-row print-contents">
             <NavBar />
             <div className="block sm:flex sm:flex-row">
                 <section className='grow p-4'>

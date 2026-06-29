@@ -39,7 +39,7 @@ function TimelineView({ experience }: { experience: resumeItem[] }) {
                         {item.description.map((sentence) => <li>{sentence}</li>)}
                     </ul>
                 }
-                {item.links && <div className="mt-1 flex gap-2 flex-wrap">{item.links.map((alink) => <LinkPill href={alink.source}>{alink.label}</LinkPill>)}</div>}
+                {item.links && <div className="mt-1 flex gap-2 flex-wrap print-hidden">{item.links.map((alink) => <LinkPill href={alink.source}>{alink.label}</LinkPill>)}</div>}
             </TimelineContent>
         </TimelineItem>))}
     </Timeline>

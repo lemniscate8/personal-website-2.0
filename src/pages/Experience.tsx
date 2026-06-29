@@ -11,18 +11,23 @@ function Experience() {
         <Banner />
         <div className="block md:flex md:flex-row">
             <NavBar />
-            <section className='grow p-4 md:max-w-3/4'>
-                <h2>Resume and CV</h2>
-                <p>
-                    TL;DR? Static files below!
-                </p>
-                <div className='mt-1 flex gap-2 pb-4'>
-                    <LinkPill href={resume}>Resume</LinkPill>
-                    <LinkPill href={cv}>CV</LinkPill>
-                </div>
-                <h1>Timeline</h1>
-                <TimelineView experience={resumeJSON} />
-            </section>
+            <div className='grow p-4 md:max-w-3/4'>
+                <section className='print-hidden'>
+                    <h2>Resume and CV</h2>
+                    <p>
+                        TL;DR? Static files below!
+                    </p>
+                    <div className='mt-1 flex gap-2 pb-4'>
+                        <LinkPill href={resume}>Resume</LinkPill>
+                        <LinkPill href={cv}>CV</LinkPill>
+                    </div>
+                </section>
+                <section>
+                    <h1>Timeline</h1>
+                    <TimelineView experience={resumeJSON} />
+                </section>
+            </div>
+
         </div>
     </div>
 }
