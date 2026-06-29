@@ -3,15 +3,15 @@ import LinkPill from "./LinkPill"
 
 type resumeItem = {
     startDate: string,
-    endDate: string | undefined,
-    location: string | undefined,
-    employer: string | undefined,
+    endDate?: string,
+    location?: string,
+    employer?: string,
     title: string,
-    titleDetail: string | undefined
-    category: string
-    tags: string[] | undefined
+    titleDetail?: string
+    category?: string
+    tags?: string[]
     description: string[]
-    links: { label: string, source: string }[] | undefined
+    links?: { label: string, source: string }[] | undefined
 }
 
 function TimelineView({ experience }: { experience: resumeItem[] }) {

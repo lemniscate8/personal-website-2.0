@@ -8,7 +8,7 @@ function NavBar() {
         <NavLink to="/" className={({ isActive }) => isActive ? baseline + active : baseline}>
             Home
         </NavLink>
-        <NavLink to="/live-resume" className={({ isActive }) => isActive ? baseline + active : baseline}>
+        <NavLink to="/experience" className={({ isActive }) => isActive ? baseline + active : baseline}>
             Experience
         </NavLink>
         <NavLink to="/research" className={({ isActive }) => isActive ? baseline + active : baseline}>
