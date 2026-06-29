@@ -5,7 +5,7 @@ import './index.css'
 import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
-  <BrowserRouter basename="/personal-website-2.0">
+  <BrowserRouter basename="/">
     <StrictMode>
       <App />
     </StrictMode>
