@@ -55,6 +55,7 @@
         "startDate": "September 2020",
         "endDate": "June 2026",
         "employer": "University of California, Davis",
+        "category": "Teaching",
         "tags": [
             "teaching"
         ],
@@ -70,6 +71,7 @@
         "startDate": "July 2025",
         "endDate": "September 2025",
         "employer": "University of California, Davis",
+        "category": "Teaching",
         "tags": [
             "teaching"
         ],
@@ -132,10 +134,10 @@
     {
         "title": "Instructional Materials Editor",
         "titleDetail": " - MAT 19 ABC",
-        "category": "Teaching",
         "startDate": "June 2023",
         "endDate": "August 2023",
         "employer": "University of California, Davis",
+        "category": "Teaching",
         "tags": [
             "teaching"
         ],
@@ -146,12 +148,21 @@
         ]
     },
     {
+        "title": "Graduate from Seattle Pacific University",
+        "startDate": "June 2020",
+        "category": "Credential",
+        "description": [
+            "B.S. in Computer Science, summa cum laude",
+            "B.S. in Mathematics, summa cum laude"
+        ]
+    },
+    {
         "title": "Frontend Developer",
         "titleDetail": " - ParaLibrary Project (Senior Project)",
-        "category": "Development",
         "startDate": "January 2020",
         "endDate": "June 2020",
         "employer": "Seattle Pacific University",
+        "category": "Development",
         "tags": [
             "front-end dev",
             "React",
@@ -173,9 +184,9 @@
         "title": "Frontend Development Intern",
         "startDate": "June 2019",
         "endDate": "August 2019",
-        "category": "Development",
         "employer": "Faithlife Corporation",
         "location": "Bellingham, WA",
+        "category": "Development",
         "tags": [
             "React",
             "C#",
@@ -190,8 +201,8 @@
     {
         "title": "Technical Writer/Researcher",
         "startDate": "February 2019",
-        "category": "Personal Projects",
         "employer": "COMAP's Interdisciplinary Contest in Modeling",
+        "category": "Personal Projects",
         "tags": [
             "mathematical-modeling"
         ],
@@ -213,7 +224,7 @@
         "titleDetail": ", birds-of-a-feather",
         "startDate": "February 2019",
         "category": "Personal Projects",
-        "employer": "Open-Source Software Development Coursework",
+        "employer": "Coursework for Open-Source Software Development Class",
         "tags": [
             "open-source",
             "HTML",
@@ -232,10 +243,11 @@
         ]
     },
     {
-        "title": "Undergrad Researcher",
+        "title": "Undergraduate Researcher",
         "startDate": "May 2018",
         "endDate": "July 2018",
         "employer": "SURIEM - Lyman Briggs College at Michigan State University",
+        "category": "Research",
         "tags": [
             "research"
         ],
