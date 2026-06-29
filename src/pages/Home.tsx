@@ -22,7 +22,6 @@ function Home() {
                     <div className=" shadow-lg p-4 flex flex-row justify-around align-top "><Portrait /></div>
                 </div>
             </div>
-
         </div>
     </>
 }

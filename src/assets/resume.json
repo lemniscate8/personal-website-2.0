@@ -1,24 +1,197 @@
 [
     {
-        "startDate": "",
-        "endDate": "",
-        "location": "",
-        "employer": "",
-        "title": "",
-        "sub-title": "",
-        "category": "",
-        "tags": [],
-        "description": []
+        "title": "Researcher",
+        "titleDetail": " - advised by Dr. Alexander Wein",
+        "startDate": "September 2023",
+        "endDate": "Ongoing",
+        "employer": "University of California, Davis",
+        "category": "Research",
+        "tags": [
+            "research",
+            "tensor-decomp",
+            "orbit-recovery"
+        ],
+        "description": [
+            "Developed methods for computer-aided proof of a conjecture on sharp bounds on the JLV algorithm for tensor decomposition.",
+            "Devised method for orbit recovery in multi-reference alignment variants using variety constrained linear systems.",
+            "Applied these algorithms to achieve orbit recovery in dihedral multi-reference alignment."
+        ],
+        "links": [
+            {
+                "label": "Alex's website",
+                "source": "https://www.alex-wein.com/"
+            },
+            {
+                "label": "pMRA orbit recovery paper",
+                "source": "https://arxiv.org/abs/2606.11701"
+            }
+        ]
     },
     {
-        "startDate": "",
-        "endDate": "",
+        "title": "Researcher",
+        "titleDetail": " - advised by Dr. Albert Fannjiang",
+        "startDate": "June 2022",
+        "endDate": "Ongoing",
+        "employer": "University of California, Davis",
+        "category": "Research",
+        "description": [
+            "Exploring inverse problems related to imaging and geometric tomography for UCD4IDS.",
+            "Determining the effect of dose-fractionation on spectral method for phase retrieval in X-ray diffraction using the non-asymptotic random matrix theory for spiked Wishart distributions (manuscript in progress)."
+        ],
+        "links": [
+            {
+                "label": "UC4ID's site",
+                "source": "https://ucd4ids.ucdavis.edu/"
+            }
+        ]
+    },
+    {
+        "title": "Instructor",
+        "startDate": "July 2025",
+        "endDate": "September 2025",
+        "employer": "University of California, Davis",
+        "description": [
+            "Planned lectures and assignments to teach key linear algebra concepts.",
+            "Designed small weekly assessments to evaluate students in a lower-stakes manner."
+        ]
+    },
+    {
+        "title": "Research Software Developer",
+        "startDate": "Sept 2024",
+        "endDate": "June 2026",
+        "employer": "University of California, Davis",
+        "category": "Development",
+        "tags": [
+            "Python",
+            "tensor-decomp"
+        ],
+        "description": [
+            "Implemented a robust version of the simultaneous diagonalization algorithm for tensor decomposition.",
+            "Implemented a heretofore theoretical algorithm for computing the intersection of a linear subspace with a conic variety.",
+            "Applied these algorithms to achieve orbit recovery in dihedral multi-reference alignment.",
+            "Use unit testing to validate results."
+        ],
+        "links": [
+            {
+                "label": "github repo",
+                "source": "https://github.com/lemniscate8/linear-intersect-varieties"
+            }
+        ]
+    },
+    {
+        "title": "Frontend Developer",
+        "endDate": "August 2024",
+        "startDate": "June 2024",
+        "employer": "Michigan State University - WAVES Program",
         "location": "",
-        "employer": "",
-        "title": "",
-        "sub-title": "",
-        "category": "",
-        "tags": [],
-        "description": []
+        "category": "Development",
+        "tags": [
+            "Python",
+            "tensor-decomp"
+        ],
+        "description": [
+            "Created new graphical user interfaces for C++ driven web applications in the header-only library, Empirical.",
+            "Suggested a new schema for component inheritance to ensure that prefabricated web components are extensible.",
+            "Presented at 2021 BEACON conference, with proof-of-concept using C++ code live."
+        ],
+        "links": [
+            {
+                "label": "Empirical GitHub",
+                "source": "https://github.com/devosoft/Empirical"
+            },
+            {
+                "label": "live slides!",
+                "source": "https://taitweicht.com/waves-prefab-presentation/"
+            }
+        ]
+    },
+    {
+        "title": "Instructional Materials Editor",
+        "titleDetail": " - MAT 19 ABC",
+        "category": "Teaching",
+        "startDate": "June 2023",
+        "endDate": "August 2023",
+        "employer": "University of California, Davis",
+        "description": [
+            "Reviewed and tested computer lab projects designed to teach students basic data science and calculus.",
+            "Verified and refined R programs to import and process data, plot functions and run simulations.",
+            "Analyzed the alignment of course objectives and course materials."
+        ]
+    },
+    {
+        "title": "Frontend Developer",
+        "titleDetail": " - ParaLibrary Project (Senior Project)",
+        "category": "Development",
+        "startDate": "January 2020",
+        "endDate": "June 2020",
+        "employer": "Seattle Pacific University",
+        "description": [
+            "Planned interface for a progressive web-app to facilitate sharing physical books between neighbors.",
+            "Designed UI and control flow for loans management by users.",
+            "Practice coding sprints using Jira to break down and assign development tasks to coworkers."
+        ],
+        "links": [
+            {
+                "label": "github repo",
+                "source": "https://github.com/ParaLibrary/paralibrary-frontend"
+            }
+        ]
+    },
+    {
+        "title": "Frontend Development Intern",
+        "startDate": "June 2019",
+        "endDate": "August 2019",
+        "category": "Development",
+        "employer": "Faithlife Corporation",
+        "location": "Bellingham, WA",
+        "tags": [
+            "React",
+            "C#"
+        ],
+        "description": [
+            "Created front-end components in React for a communications web application faithful to user interface and experience design specifications.",
+            "Wrote unit tests for backend functions in C# to store and retrieve user data from a SQL database."
+        ]
+    },
+    {
+        "title": "Technical Writer/Researcher",
+        "startDate": "February 2019",
+        "category": "Personal Projects",
+        "employer": "COMAP's Interdisciplinary Contest in Modeling",
+        "tags": [
+            "mathematical-modeling"
+        ],
+        "description": [
+            "Worked in a team of 3 to write and submit a solution paper in 5 days (Problem D, Team #1908810).",
+            "Leveraged spectral graph theory and agent-based modeling to model flow on a network.",
+            "Identified potential bottlenecks in the Louvre's floor-plan and gave recommendations for an evacuation strategy.",
+            "Submission ranked in top 1% of 11,262 entries."
+        ],
+        "links": [
+            {
+                "label": "contest results",
+                "source": "https://www.contest.comap.com/undergraduate/contests/mcm/contests/2019/results/"
+            }
+        ]
+    },
+    {
+        "title": "Programmer",
+        "startDate": "February 2019",
+        "category": "Personal Projects",
+        "tags": [
+            "open-source",
+            "HTML",
+            "CSS"
+        ],
+        "description": [
+            "Wrote an open source application in Javascript with the Processing library to simulate flocking behavior.",
+            "Generate user-interface for interaction matrices to explore complex emergent behavior and group dynamics."
+        ],
+        "links": [
+            {
+                "label": "birds-of-a-feather",
+                "source": "https://github.com/lemniscate8/birds-of-a-feather"
+            }
+        ]
     }
 ]
