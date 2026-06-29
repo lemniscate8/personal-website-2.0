@@ -1,5 +1,5 @@
 function Tag({ key }: { key: string }) {
-    return <div>key</div>
+    return <div>{key}</div>
 }
 
 export default Tag
